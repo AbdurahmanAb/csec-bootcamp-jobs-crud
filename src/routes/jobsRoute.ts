@@ -6,7 +6,7 @@ const express = require("express");
 const jobRouter = express.Router();
 
 jobRouter.get("/", getJob);
-jobRouter.post("/",validateJob,handleValidationErrors, createJob);
+/* Your Job Router with validation */
 jobRouter.get("/:id", getJobById);
 
 export default jobRouter;

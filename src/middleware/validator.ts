@@ -20,10 +20,7 @@ export const validateUser = [
 ];
 
 export const validateJob = [
-  body("title").notEmpty().withMessage("Title is required"),
-  body("location").notEmpty().withMessage("Location is required"),
-  body("salary").notEmpty().isNumeric().withMessage("Salary is required"),
-  body("company").notEmpty().withMessage("Company is required"),
+ /* Job Validator */
 ];
 
 
